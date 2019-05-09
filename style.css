@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body, html{
+    height: 100%;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 50px;
+    margin: auto;
+    width: 1000px;
+    height: 625px;
+}
+
+.display {
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.operate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+
+.number p, .operate p {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 94px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 40px; 
+}
+
+.number p {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.operate p {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.centerMe {
+    transform: translate(160px, 0);
+}
