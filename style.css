@@ -26,6 +26,8 @@ body, html{
     line-height: 100px;
     vertical-align: middle;
     text-align: right;
+    font-size: 50px;
+    padding-right: 40px;
 }
 
 .number {
@@ -47,7 +49,7 @@ body, html{
     width: 100%;
 }
 
-.number p, .operate p {
+.number button, .operate button {
     border: 1px solid black;
     border-radius: 20px;
     width: 150px;
@@ -58,13 +60,13 @@ body, html{
     font-size: 40px; 
 }
 
-.number p {
+.number button {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.operate p {
+.operate button {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
